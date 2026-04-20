@@ -1,0 +1,3 @@
+payload:
+  - DOMAIN,download.epicgames.com # Скачивание из EGS
+  - DOMAIN-SUFFIX,reimg.org # remanga images
