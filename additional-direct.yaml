@@ -1,6 +1,7 @@
 payload:
   - DOMAIN,download.epicgames.com # Скачивание из EGS
   - DOMAIN-SUFFIX,reimg.org # remanga images
+  - DOMAIN-SUFFIX,reimg2.org # remanga images
   - DOMAIN-SUFFIX,euw-red.lol.sgp.pvp.net # LOL problem proxy?
 
   # ty davoyan
