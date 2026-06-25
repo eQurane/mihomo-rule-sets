@@ -1,5 +1,7 @@
 payload:
   - DOMAIN-SUFFIX,simpcity.cr
+  - DOMAIN-SUFFIX,insights.gg
+  - DOMAIN-SUFFIX,overwolf.com
 
   # ty Davoyan
   - DOMAIN-SUFFIX,ua
