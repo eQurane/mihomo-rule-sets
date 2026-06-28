@@ -189,3 +189,11 @@ payload:
   - DOMAIN-SUFFIX,supercellgames.com
   - DOMAIN-SUFFIX,supercellid.com
   - DOMAIN-SUFFIX,supercellstore.com
+
+  # Riot
+  # PC
+  - PROCESS-NAME,LeagueClient.exe
+  - PROCESS-NAME,RiotClientServices.exe
+  - PROCESS-NAME,LeagueClientUxRender.exe
+  - PROCESS-NAME,League of Legends.exe
+  - PROCESS-NAME-REGEX,(?i).*\\Riot Games\\.*
