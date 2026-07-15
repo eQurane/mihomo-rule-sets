@@ -3,6 +3,8 @@ payload:
   - DOMAIN-SUFFIX,reimg.org # remanga images
   - DOMAIN-SUFFIX,reimg2.org # remanga images
   #  - DOMAIN-SUFFIX,euw-red.lol.sgp.pvp.net # LOL problem proxy?
+  - DOMAIN-SUFFIX,jaswish.com # doramaland player
+  - DOMAIN-SUFFIX,doramaland.plus # doramaland
 
   # ty davoyan
   - DOMAIN-SUFFIX,2ip.ru

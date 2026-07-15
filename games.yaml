@@ -41,6 +41,9 @@ payload:
   # Content Warning
   - PROCESS-NAME,Content Warning.exe
 
+  # Counter-Strike 2
+  - PROCESS-NAME,cs2.exe
+
   # Euro Truck Simulator 2 / American Trucks Simulator
   - PROCESS-NAME,eurotrucks2.exe
   - PROCESS-NAME,amtrucks.exe
@@ -55,11 +58,21 @@ payload:
   - PROCESS-NAME,ExecPubg.exe # Launcher
   - PROCESS-NAME-REGEX,TslGame.* # Game
 
+  # Minecraft
+  - PROCESS-NAME,javaw.exe # Minecraft (Java Edition)
+  - PROCESS-NAME,Minecraft.exe # Minecraft (Bedrock Edition)
+
   # FragPunk
   - PROCESS-NAME,FragPunk.exe
 
   # Dead by Daylight
   - PROCESS-NAME-REGEX,DeadByDaylight.*
+
+  # Dota 2
+  - PROCESS-NAME,dota2.exe
+
+  # Deadlock
+  - PROCESS-NAME,deadlock.exe
 
   # GTA V (online + other multiplayer solutions)
   - PROCESS-NAME-REGEX,.*GTA5.* # GTA V / Online
@@ -70,6 +83,13 @@ payload:
   - PROCESS-NAME-REGEX,(?i).*Majestic.* # Majestic RP
   - PROCESS-NAME-REGEX,(?i).*Rockstar.* # Rockstar Games Launcher
   - PROCESS-NAME-REGEX,(?i).*SocialClub.* # Rockstar Social Club
+
+  # Team Fortress 2
+  - PROCESS-NAME,tf.exe
+  - PROCESS-NAME,tf_win64.exe
+
+  # Half-Life 2
+  - PROCESS-NAME,hl2.exe
 
   # Rainbow Six Siege
   - PROCESS-NAME,RainbowSix.exe
@@ -87,13 +107,27 @@ payload:
 
   # Hunt: Showdown
   - PROCESS-NAME,HuntGame.exe # Hunt: Showdown
+  # HELLDIVERS 2
+  - PROCESS-NAME,helldivers2.exe
+  - PROCESS-NAME,crs-handler.exe # Crash reports
 
   # THE FINALS
   - PROCESS-NAME,Discovery.exe
   - PROCESS-NAME,Discovery-d.exe
 
+  # Rust
+  - PROCESS-NAME-REGEX,(?i).*RustClient.*
+
+  # Escape from Tarkov
+  - PROCESS-NAME,BsgLauncher.exe
+  - PROCESS-NAME-REGEX,EscapeFromTarkov.*
+
   # Arena Breakout: Infinite
   - PROCESS-NAME,UAGame.exe
+
+  # Marvel Rivals
+  - PROCESS-NAME,MarvelRivals_Launcher.exe
+  - PROCESS-NAME,Marvel-Win64-Shipping.exe
 
   # Overwatch 2
   - PROCESS-NAME,Overwatch.exe
@@ -168,6 +202,8 @@ payload:
   - PROCESS-NAME,com.zy.wqmt.global # Android
 
   # supercell
+  - DOMAIN-SUFFIX,supercell.helpshift.com
+  - DOMAIN-SUFFIX,supercell.zendesk.com
   - DOMAIN-SUFFIX,boombeach.com
   - DOMAIN-SUFFIX,brawlstars.com
   - DOMAIN-SUFFIX,brawlstarsgame.com
@@ -183,17 +219,22 @@ payload:
   - DOMAIN-SUFFIX,seeurlpcl.com
   - DOMAIN-SUFFIX,squadbusters.com
   - DOMAIN-SUFFIX,supercell.com
-  - DOMAIN-SUFFIX,supercell.helpshift.com
   - DOMAIN-SUFFIX,supercell.net
   - DOMAIN-SUFFIX,supercellcreators.com
   - DOMAIN-SUFFIX,supercellgames.com
   - DOMAIN-SUFFIX,supercellid.com
   - DOMAIN-SUFFIX,supercellstore.com
+  - DOMAIN-SUFFIX,supr.cl
 
   # Riot
   # PC
+  - PROCESS-NAME,VALORANT-Win64-Shipping.exe
   - PROCESS-NAME,LeagueClient.exe
   - PROCESS-NAME,RiotClientServices.exe
   - PROCESS-NAME,LeagueClientUxRender.exe
   - PROCESS-NAME,League of Legends.exe
-  - PROCESS-NAME-REGEX,(?i).*\\Riot Games\\.*
+  #- PROCESS-NAME-REGEX,(?i).*\\Riot Games\\.*
+
+  # Sid Civ
+  - PROCESS-NAME,CivilizationVI_DX12.exe
+  - PROCESS-NAME,CivilizationVI.exe
