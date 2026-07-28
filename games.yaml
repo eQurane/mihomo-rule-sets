@@ -238,3 +238,8 @@ payload:
   # Sid Civ
   - PROCESS-NAME,CivilizationVI_DX12.exe
   - PROCESS-NAME,CivilizationVI.exe
+
+  # POE
+  - PROCESS-NAME,PathOfExileSteam.exe
+  - PROCESS-NAME,PathOfExile.exe
+  - PROCESS-NAME,PathOfExile_x64.exe
