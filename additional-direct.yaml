@@ -1,4 +1,5 @@
 payload:
+  - DOMAIN,sub.libertyconnect.space # sub.libertyconnect.space
   - DOMAIN,download.epicgames.com # Скачивание из EGS
   - DOMAIN-SUFFIX,reimg.org # remanga images
   - DOMAIN-SUFFIX,reimg2.org # remanga images
