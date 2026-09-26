@@ -246,3 +246,6 @@ payload:
 
   # Valheim
   - PROCESS-NAME,valheim.exe
+
+  # No Man's Sky
+  - PROCESS-NAME,NMS.exe
