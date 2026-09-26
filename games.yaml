@@ -243,3 +243,6 @@ payload:
   - PROCESS-NAME,PathOfExileSteam.exe
   - PROCESS-NAME,PathOfExile.exe
   - PROCESS-NAME,PathOfExile_x64.exe
+
+  # Valheim
+  - PROCESS-NAME,valheim.exe
