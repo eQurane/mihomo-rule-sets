@@ -9,7 +9,6 @@ payload:
   - PROCESS-NAME-REGEX,(?i).*vanguard.* # Vanguard Anti-Cheat (Valorant, League of Legends)
   - PROCESS-NAME,vgc.exe # Vanguard Anti-Cheat (Valorant, League of Legends)
   - PROCESS-NAME,vgm.exe # Vanguard Anti-Cheat (Valorant, League of Legends)
-  - PROCESS-NAME,EasyAntiCheat.exe
   - PROCESS-NAME,denuvo-anti-cheat-update-service.exe # DENUVO Anticheat
   - DOMAIN-SUFFIX,codefusion.technology # DENUVO Anticheat
   - PROCESS-NAME,EscapeFromTarkovArena_BE.exe # Escape From Tarkov - Arena Battle Eye Anticheat
@@ -250,3 +249,13 @@ payload:
 
   # No Man's Sky
   - PROCESS-NAME,NMS.exe
+
+  # Heroes Of The Storm
+  - PROCESS-NAME,HeroesOfTheStorm_x64.exe
+
+  # AstrumPlay
+  - PROCESS-NAME-REGEX,(?i)^AstrumPlay
+
+  # THE FINALS
+  - PROCESS-NAME,Discovery.exe
+  - PROCESS-NAME,Discovery-d.exe
