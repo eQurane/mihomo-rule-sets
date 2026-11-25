@@ -7,7 +7,6 @@ payload:
   #  - DOMAIN-SUFFIX,euw-red.lol.sgp.pvp.net # LOL problem proxy?
   - DOMAIN-SUFFIX,jaswish.com # doramaland player
   - DOMAIN-SUFFIX,doramaland.plus # doramaland
-  - DOMAIN,animakima.ru # animakima.ru (часть контента недоступна на территории РФ)
 
   # ty davoyan
   - DOMAIN-SUFFIX,2ip.ru

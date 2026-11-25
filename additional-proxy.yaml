@@ -3,6 +3,7 @@ payload:
   - DOMAIN-SUFFIX,insights.gg
   - DOMAIN-SUFFIX,overwolf.com
   - DOMAIN-SUFFIX,minecraft.tools
+  - DOMAIN,animakima.ru # animakima.ru (часть контента недоступна на территории РФ)
 
   # ty Davoyan
   - DOMAIN-SUFFIX,ua
