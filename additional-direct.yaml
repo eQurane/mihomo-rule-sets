@@ -1,11 +1,13 @@
 payload:
   - DOMAIN,sub.libertyconnect.space # sub.libertyconnect.space
   - DOMAIN,download.epicgames.com # Скачивание из EGS
+  - DOMAIN-REGEX,epicgames.com # Epic Games Launcher
   - DOMAIN-SUFFIX,reimg.org # remanga images
   - DOMAIN-SUFFIX,reimg2.org # remanga images
   #  - DOMAIN-SUFFIX,euw-red.lol.sgp.pvp.net # LOL problem proxy?
   - DOMAIN-SUFFIX,jaswish.com # doramaland player
   - DOMAIN-SUFFIX,doramaland.plus # doramaland
+  - DOMAIN,animakima.ru # animakima.ru (часть контента недоступна на территории РФ)
 
   # ty davoyan
   - DOMAIN-SUFFIX,2ip.ru
